@@ -18,13 +18,13 @@ export class FeedPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  public somaDoisValores():void {
+  public somaDoisValores(num1:number, num2:number):void {
     alert("minha funcao funcionou");
-    alert(5 + 10);
+    alert(num1 + num2);
   }
   ionViewDidLoad() {
     console.log('ionViewDidLoad FeedPage');
-    this.somaDoisValores();
+    this.somaDoisValores(5, 10);
   }
 
 }
