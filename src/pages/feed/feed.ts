@@ -23,6 +23,7 @@ export class FeedPage {
   }
   ionViewDidLoad() {
     console.log('ionViewDidLoad FeedPage');
+    this.somaDoisValores();
   }
 
 }
