@@ -12,4 +12,5 @@ Inserção de novos icones, mudanças de tela e trablho com Issues.
 
 <img src="/src/assets/imgs/ionic.png" width="200">
 
-teste
+## Screenshots
+<img src="/src/screenshots/screenshot-001.png" width="200"> <img src="/src/screenshots/screenshot-002.png" width="200"> <img src="/src/screenshots/screenshot-003.png" width="200"> <img src="/src/screenshots/screenshot-004.png" width="200">
