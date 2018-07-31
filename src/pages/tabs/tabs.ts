@@ -14,7 +14,6 @@ export class TabsPage {
   tab1Root = HomePage;
   // custom
   tab4Root = FeedPage;
-
   constructor() {
 
   }
