@@ -1,6 +1,12 @@
-sudo apt install curl
-curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-sudo apt-get install -y nodejs
-sudo apt-get update
-  node --version
-  npm --version
+sudo apt update
+sudo apt install nodejs
+	node --version (v10.13.0)
+  	npm --version (6.4.1)
+	sudo npm install -g ionic cordova -g (-g instalação global)
+	// sudo npm install -g ionic
+sudo chmod -R 777 ~/.ionic/
+
+ionic start bluetooth blank
+cd bluetooth
+ionic cordova plugin add cordova-plugin-bluetooth-serial
+npm install --save @ionic-native/bluetooth-serial
